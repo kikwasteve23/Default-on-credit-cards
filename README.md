@@ -14,4 +14,14 @@ The problem we are addressing here is the prediction of customer defaults on cre
 ![image](https://github.com/user-attachments/assets/4bfd6e85-ee50-4f76-89d3-93dd4bd93e8a)
 ![image](https://github.com/user-attachments/assets/51577daa-3da7-4135-9704-b17e5c327485)
 
+## Key Insights from the Data
+### Customer Demographics and Default Patterns:
+
+* Younger customers (e.g., those in their 20s and 30s) tend to have higher default rates, possibly due to limited financial experience or stability.
+
+* Marital status shows a significant relationship with default rates, with married individuals appearing to manage credit better compared to single or divorced clients.
+Behavioral and Financial Indicators:
+
+* High Payment_Ratio (ratio of payments to credit limit) and consistent on-time payments are strong indicators of lower default risk.
+Customers with higher Credit_Utilization ratios (closer to their credit limit) are more likely to default, highlighting the importance of credit management.
 
