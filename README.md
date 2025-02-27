@@ -4,6 +4,8 @@ In this project, we predict customer defaults for a credit card payment using a 
 
 # Problem Statement
 The problem we are addressing here is the prediction of customer defaults on credit card payments for the following month. The goal here is to identify customers as high likelihood or low likelihood to default, given their financial behavior and demographic information. This prediction is essential to minimise the credit risk for financial institutions, optimise their allocations for collecting customers, and provide targeted interventions to the at-risk customers. Utilizing the record of historical data for such indicators as payment history, billing amount and demographic parameters, the objective is to develop an accurate predictive model that can prevent the losses; simultaneously enhancing the decision making process of customers in this domain.
+
+
 ![image](https://github.com/user-attachments/assets/02726291-6bf1-41b4-9ffd-3adb86119ab8)
 ![image](https://github.com/user-attachments/assets/2e9917eb-054a-4e78-a989-9daa4557a6c2)
 ![image](https://github.com/user-attachments/assets/79561d8e-c1e2-4381-8184-cd0beee67cec)
