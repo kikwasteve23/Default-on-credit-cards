@@ -20,9 +20,19 @@ The problem we are addressing here is the prediction of customer defaults on cre
  * Younger customers (e.g., those in their 20s and 30s) tend to have higher default rates, possibly due to limited financial experience or stability.
 
  * Marital status shows a significant relationship with default rates, with married individuals appearing to manage credit better compared to single or divorced clients.
- * 
+
 ### Behavioral and Financial Indicators:
 
 * High Payment_Ratio (ratio of payments to credit limit) and consistent on-time payments are strong indicators of lower default risk.
 Customers with higher Credit_Utilization ratios (closer to their credit limit) are more likely to default, highlighting the importance of credit management.
 
+
+## Model Insights
+* Logistic Regression provides baseline performance but struggles with complex relationships due to its linear nature.
+* Random Forest captures non-linear patterns effectively, improving recall but sometimes overfitting on training data.
+* Gradient Boosting achieves the best balance between precision and recall, with a consistently high AUC-ROC score, making it the most reliable model for predicting defaults.
+
+## Recommendations
+* Risk Segmentation: Use the model to segment customers into risk tiers based on critical features like payment history, Credit_Utilization, and Payment_Ratio, enabling targeted interventions for high-risk groups.
+* Enhance Predictive Modeling: Deploy Gradient Boosting for real-time default predictions while regularly retraining the model with updated data to maintain accuracy and adapt to changing customer behavior.
+* Integrate Insights into Business Strategy: Utilize predictions to guide credit approvals, adjust credit limits, and prioritize collections strategies for customers predicted to default.
